@@ -22,20 +22,6 @@ html {
   overscroll-behavior-y: none;
 }
 
-h1 {
-    font-family: var(--font-bivg);
-    color: var(--blue);
-    text-transform: uppercase;
-    font-size: 5rem;
-    margin: 15px 0;
-}
-
-p {
-    font-family: var(--font-small);
-    color: var(--dark_gr);
-    font-size: 1.2rem;
-}
-
 
 .cta {
   font-family: var(--font-big);
@@ -73,15 +59,4 @@ p {
 
 .cta_bl:hover {
   background-position: left bottom;
-}
-
-
-.hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.hero_image_desktop {
-    max-width: 700px;
 }

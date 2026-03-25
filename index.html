@@ -2,12 +2,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <title>Chicago Cards</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+
+    :root {
+        --red: #dd1523;
+        --blue: #40b7e6;
+        --white: #ffffff;
+        --gray: #eaeaea;
+        --dark_gr: #7f7f7f;
+        --font-big: 'Big Shoulders', sans-serif;
+        --font-small: 'Roboto', sans-serif;
+        --font-small-cond: 'Roboto Condensed', sans-serif;
+    }
+
+    h1 {
+      font-family: 'Big Shoulders', 'Arial Narrow', Arial, sans-serif; /* Fallback for Gmail */
+      font-weight: 800;
+      text-transform: uppercase;
+      color: var(--blue);
+    }
+    p {
+        font-family: var(--font-small);
+        color: var(--dark_gr);
+        font-size: 1rem;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hero_image_desktop {
+        max-width: 700px;
+    }
+  </style>
+  <title>Chicago Cards Thank You Email</title>
 </head>
 <body>
     <article>
@@ -21,5 +52,16 @@
             <button class="cta cta_bl">track your cards</button>
             <p>USPS Tracking #1234567890</p>
     </article>
+    <div style="
+        width: 700px; 
+        max-width: 100%; 
+        height: 4px; 
+        background-color: #dd1523; 
+        border-radius: 10px; 
+        margin: 20px auto; 
+        line-height: 3px; 
+        font-size: 1px;">
+        &nbsp;
+    </div>
 </body>
 </html>
