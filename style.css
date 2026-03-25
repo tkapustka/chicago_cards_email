@@ -23,11 +23,11 @@ html {
 }
 
 h1 {
-    font-family: var(--font-big);
+    font-family: var(--font-bivg);
     color: var(--blue);
     text-transform: uppercase;
     font-size: 5rem;
-    margin: 0;
+    margin: 15px 0;
 }
 
 p {
