@@ -21,3 +21,20 @@ html {
   box-sizing: border-box;
   overscroll-behavior-y: none;
 }
+
+h1 {
+    font-family: var(--font-big);
+    color: var(--blue);
+    text-transform: uppercase;
+    font-size: 5rem;
+    margin: 0;
+}
+
+p {
+    font-family: var(--font-small);
+    color: var(--dark_gr);
+}
+
+.hero_image_desktop {
+    max-width: 800px;
+}
