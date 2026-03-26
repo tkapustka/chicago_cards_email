@@ -21,6 +21,7 @@
       font-weight: 800;
       text-transform: uppercase;
       color: var(--blue);
+      font-size: 3rem;
     }
     p {
         font-family: var(--font-small);
@@ -37,6 +38,18 @@
     .hero_image_desktop {
         max-width: 700px;
     }
+
+    .cta {
+        font-family: var(--font-big);
+        font-size: 2rem;
+        padding: 1rem 2rem;
+        border-radius: 5px;
+        color: var(--white);
+        background-color: var(--red);
+        cursor: pointer;
+        border: none;
+        text-transform: uppercase;
+    }
   </style>
   <title>Chicago Cards Thank You Email</title>
 </head>
@@ -49,7 +62,7 @@
     <article class="hero">
             <img src="https://raw.githubusercontent.com/tkapustka/chicago_cards_email/refs/heads/main/assets/Hero_desktop.png" alt="Chi cards email thank you" class="hero_image_desktop">
             <h1>your cards shipped</h1>
-            <button class="cta cta_bl">track your cards</button>
+            <a href="#"><button class="cta">track your cards</button></a>
             <p>USPS Tracking #1234567890</p>
     </article>
     <div style="
