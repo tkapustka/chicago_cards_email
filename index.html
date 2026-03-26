@@ -23,13 +23,22 @@
       color: var(--blue);
       font-size: 3rem;
     }
+    h2 {
+      font-family: 'Big Shoulders', 'Arial Narrow', Arial, sans-serif; /* Fallback for Gmail */
+      font-weight: 500;
+      text-transform: uppercase;
+      color: var(--dark_gr);
+      font-size: 2rem;
+      margin: 0;
+    }
     p {
         font-family: var(--font-small);
         color: var(--dark_gr);
         font-size: 1rem;
+        margin: .5rem;
     }
 
-    .hero {
+    .center {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -59,7 +68,7 @@
             alt="Chicago Cards Logo" 
             style="display: block; margin: 15px auto; width: 75px;">
     </article>
-    <article class="hero">
+    <article class="center">
             <img src="https://raw.githubusercontent.com/tkapustka/chicago_cards_email/refs/heads/main/assets/Hero_desktop.png" alt="Chi cards email thank you" class="hero_image_desktop">
             <h1>your cards shipped</h1>
             <a href="#"><button class="cta">track your cards</button></a>
@@ -76,5 +85,16 @@
         font-size: 1px;">
         &nbsp;
     </div>
+    <article class="center">
+        <h1>order summary</h1>
+        <p>Order #1234567890</p>
+        <div>
+            <img src="" alt="">
+            <div>
+                <h2>the chicago cards</h2>
+                <p>Quantity 1</p>
+            </div>
+        </div>
+    </article>
 </body>
 </html>
